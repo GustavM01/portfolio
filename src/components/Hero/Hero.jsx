@@ -18,7 +18,6 @@ function Hero() {
     <section className="hero">
       <div className="hero-content">
         <div className="hero-text">
-          <p>Hi, I'm</p>
           <h1>
             Gustav <span>Mårtensson</span>
           </h1>

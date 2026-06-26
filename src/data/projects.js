@@ -7,6 +7,10 @@ import webshopProductImg from "../assets/projects/webshop/webshop-product.webp";
 import adminOrderImg from "../assets/projects/webshop/admin-order.webp";
 import adminProductImg from "../assets/projects/webshop/admin-product.webp";
 
+import travelExplorerHome from "../assets/projects/travel-explorer/travel-explorer-home.webp";
+import travelExplorerSaved from "../assets/projects/travel-explorer/travel-explorer-saved.webp";
+import travelExplorerCompare from "../assets/projects/travel-explorer/travel-explorer-compare.webp";
+
 export const projects = [
   {
     id: 1,
@@ -15,7 +19,7 @@ export const projects = [
     description:
       "A games website with 3 games, classic snake, TicTacToe where you can challange a friend or a bot and Connect Four where you can challange a friend.",
     technologies: ["React"],
-    github: "...",
+    github: "https://github.com/GustavM01/Games",
     live: "https://gustavm01.github.io/Games/",
     featured: true,
   },
@@ -35,18 +39,25 @@ export const projects = [
       "Firebase",
       "Google Auth",
     ],
-    github: "...",
+    github: "https://github.com/GustavM01/Webshop",
     live: "",
     featured: true,
   },
   {
     id: 3,
-    title: "Connect Four",
-    images: [connectFourImg],
-    description: "This is a website with Connect Four",
-    technologies: ["React", "JavaScript"],
-    github: "...",
-    live: "https://gustavm01.github.io/Games/#/connectfour",
+    title: "Travel-Explorer",
+    images: [travelExplorerHome, travelExplorerSaved, travelExplorerCompare],
+    description:
+      "A page where you can learn things about diffirent countries before visiting. Using different APIs to get relevant information.",
+    technologies: [
+      "React",
+      "JavaScript",
+      "Rest-Countries API",
+      "Pexels API",
+      "Weather API",
+    ],
+    github: "https://github.com/GustavM01/travel-explorer",
+    live: "",
     featured: true,
   },
   //   {

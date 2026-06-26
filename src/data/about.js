@@ -1,7 +1,5 @@
 export const aboutData = {
-  shortBio: `Hi, I'm Gustav.
-
-Frontend-focused developer with a background in .NET and full-stack development. I enjoy building responsive web applications with React, JavaScript, and modern web technologies.
+  shortBio: `Frontend-focused developer with a background in .NET and full-stack development. I enjoy building responsive web applications with React, JavaScript, and modern web technologies.
 
 Currently looking for opportunities as a Frontend Developer while continuing to expand my full-stack skills through personal projects.
 `,
